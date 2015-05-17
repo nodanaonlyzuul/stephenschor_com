@@ -31,9 +31,20 @@
       "startDate": "2015-01-05",
       "summary": "Working with Ruby, Java, & Javascript to help archivists describe digitized archival material and make material available to the public on the web",
       "highlights": [
-        "Test coverage",
-        "AWS stuff",
-        "Elastic Transcoder stuff."
+        "Shepherded test coverage from 0 to +30% in 5 months.",
+        "Limited rights protected video assets by IP address using AWS Cloudfront.",
+        "Automated video transcoding for turning working copies into high, web quality video."
+      ]
+    },
+    {
+      "company": "Movable Ink",
+      "position": "Senior Engineer",
+      "startDate": "2014-01-08",
+      "endDate": "2014-12-28",
+      "summary": "Maintain and build web application and services capable of servicing thousands of requests per second.",
+      "highlights": [
+        "Working in Node, Ruby, Golang to strike the best balance between maintainability and performance.",
+        "Sharing DevOps responsibilities with a team of fellow highly skilled, handsome developers."
       ]
     }
   ],
