@@ -1,0 +1,112 @@
+{
+  "basics": {
+    "name": "Stephen Schor",
+    "label": "Programmer",
+    "picture": "https://secure.gravatar.com/avatar/05517bd3a30b42f902ef032ba21de93a?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "email": "stephen.schor@gmail.com",
+    "website": "http://stephenschor.com",
+    "summary": "Competent user of popular web frameworks, application servers, RDMBS & key/value stores",
+    "location": {
+      "city": "New York",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "nodanaonlyzuul",
+        "url": "https://github.com/nodanaonlyzuul"
+      },
+      {
+        "network": "Rubygems.org",
+        "username": "nodanaonlyzuul",
+        "url": "https://rubygems.org/profiles/nodanaonlyzuul"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "New York Public Library",
+      "position": "Senior Applications Developer",
+      "startDate": "2015-01-05",
+      "summary": "Working with Ruby, Java, & Javascript to help archivists describe digitized archival material and make material available to the public on the web",
+      "highlights": [
+        "Test coverage",
+        "AWS stuff",
+        "Elastic Transcoder stuff."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Oklahoma",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}
