@@ -3,9 +3,9 @@
     "name": "Stephen Schor",
     "label": "Programmer",
     "picture": "https://secure.gravatar.com/avatar/05517bd3a30b42f902ef032ba21de93a?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
-    "email": "stephen.schor@gmail.com",
+    "email": "[FIRSTNAME].[LASTNAME][AT][GMAIL].com",
     "website": "http://stephenschor.com",
-    "summary": "Competent user of popular web frameworks, application servers, RDMBS & key/value stores. I use technology to amuse myself.",
+    "summary": "Competent user of popular web frameworks and adjacent technologies. If you look at the source and say \"That's it?\", then I'm happy.",
     "location": {
       "city": "New York",
       "countryCode": "US",
@@ -29,8 +29,9 @@
       "company": "New York Public Library",
       "position": "Senior Applications Developer",
       "startDate": "2015-01-05",
-      "summary": "Working with Ruby, Java, & Javascript to help archivists describe digitized archival material and make material available to the public on the web",
+      "summary": "Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.",
       "highlights": [
+        "Wirting maintainable and idiomatic Ruby, Java, & Javascript applications",
         "Shepherded test coverage from 0 to +30% in 5 months.",
         "Limited rights protected video assets by IP address using AWS Cloudfront.",
         "Automated video transcoding for turning working copies into high, web quality video."
@@ -50,38 +51,14 @@
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "institution": "Florida State University",
+      "area": "MIS / Economics Major with Computer Science minor",
+      "studyType": "Bachelor"
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Web Development, Ruby, Node, API Design, ",
       "level": "Master",
       "keywords": [
         "HTML",
@@ -99,25 +76,13 @@
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Designing for testability, automation, squeezing the most out of 512 MB of RAM, distributed collaboration, intuitive design in code., Chaining apps with queuing.",
       "keywords": [
         "Ferrets",
         "Unicorns"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
     }
   ]
 }
