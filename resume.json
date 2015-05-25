@@ -3,9 +3,9 @@
     "name": "Stephen Schor",
     "label": "Programmer",
     "picture": "https://secure.gravatar.com/avatar/05517bd3a30b42f902ef032ba21de93a?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
-    "email": "[FIRSTNAME].[LASTNAME][AT][GMAIL].com",
+    "email": "myfirstname.mylastname@gmail.com",
     "website": "http://stephenschor.com",
-    "summary": "Competent user of popular web frameworks and adjacent technologies. If you look at the source and say \"That's it?\", then I'm happy.",
+    "summary": "Competent user of popular web frameworks and adjacent technologies. If you look at my source and say \"That's it,?\" then I'm happy. This is a cusory overview of my experience. For more information see my personal site, github, and rubygems accounts.",
     "location": {
       "city": "New York",
       "countryCode": "US",
@@ -31,10 +31,11 @@
       "startDate": "2015-01-05",
       "summary": "Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.",
       "highlights": [
-        "Wirting maintainable and idiomatic Ruby, Java, & Javascript applications",
+        "Writing maintainable and idiomatic Ruby, & Javascript applications",
         "Shepherded test coverage from 0 to +30% in 5 months.",
         "Limited rights protected video assets by IP address using AWS Cloudfront.",
-        "Automated video transcoding for turning working copies into high, web quality video."
+        "Automated video transcoding for turning working copies into high, web quality video.",
+        "Led efforts to migrate applications from Oracle to PostgresSQL."
       ]
     },
     {
@@ -44,8 +45,55 @@
       "endDate": "2014-12-28",
       "summary": "Maintain and build web application and services capable of servicing thousands of requests per second.",
       "highlights": [
-        "Working in Node, Ruby, Golang to strike the best balance between maintainability and performance.",
+        "Working in Node.js, Ruby, Golang to strike the best balance between maintainability and performance.",
         "Sharing DevOps responsibilities with a team of fellow highly skilled, handsome developers."
+      ]
+    },
+    {
+      "company": "EastMedia Group",
+      "position": "Senior Developer",
+      "startDate": "2010-01-01",
+      "endDate": "2013-12-28",
+      "summary": "Create and maintain technically and organizationally scalable applications for startups and goliaths.",
+      "highlights": [
+        "Creating web applications that can be extended quickly.",
+        "Not carrying a balance of technical debt.",
+        "Dictating technical infrastructure. Everything from hosting to application server."
+      ]
+    },
+    {
+      "company": "Metadata",
+      "position": "Senior Software Engineer, Team Lead",
+      "startDate": "2007-07-01",
+      "endDate": "2009-09-28",
+      "summary": "",
+      "highlights": [
+        "Evaluating and implementing libraries for use in Ruby on Rails applications.",
+        "Formal and informal training of developers on Ruby best idioms and practices."
+      ]
+    },
+    {
+      "company": "Metadata",
+      "position": "Senior Software Engineer, Team Lead",
+      "startDate": "2007-07-01",
+      "endDate": "2009-09-28",
+      "summary": "",
+      "highlights": [
+        "Evaluating and implementing libraries for use in Ruby on Rails applications.",
+        "Formal and informal training of developers on Ruby best idioms and practices."
+      ]
+    },
+    {
+      "company": "Unicast Corporation / Enliven",
+      "position": "QA Engineer / Developer",
+      "startDate": "2004-08-01",
+      "endDate": "2007-07-01",
+      "summary": "Automated QA of web applications and aiding our technology's integration on client's applications",
+      "highlights": [
+        "Complex breadth testing of struts-based web application and the JavaScript files it generates.",
+        "Creating Ruby driven web automation tests to save 40 man/hours per week.",
+        "Creating reusable performance tests for web applications.",
+        "Developing Java desktop application to save internal users to 20 hours/ week."
       ]
     }
   ],
@@ -58,30 +106,48 @@
   ],
   "skills": [
     {
-      "name": "Web Development, Ruby, Node, API Design, ",
+      "name": "Web Development & API Design",
       "level": "Master",
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript"
+        "Javascript",
+        "Varnish",
+        "Nginx",
+        "Ruby",
+        "Node.js"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Technical Infrastructure",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Queuing Systems",
+        "AWS's suite of services",
+        "HTTP",
+        "Linux distros, how they work and their differences"
+      ]
+    },
+    {
+      "name": "Data Stores",
+      "level": "Great for a developer, but you and I both don't want me to be your DBA.",
+      "keywords": [
+        "PostgresSQL",
+        "MySQL",
+        "Redis",
+        "Knowing the right tool for the job"
       ]
     }
   ],
   "interests": [
     {
-      "name": "Designing for testability, automation, squeezing the most out of 512 MB of RAM, distributed collaboration, intuitive design in code., Chaining apps with queuing.",
+      "name": "Squeezing the most out of 512 MB of RAM, Intuitive design in code, Chaining apps with queuing."
+    },
+    {
+      "name": "Deployment and hosting",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Nginx",
+        "Passenger",
+        "AWS"
       ]
     }
   ]
