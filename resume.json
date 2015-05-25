@@ -66,18 +66,7 @@
       "position": "Senior Software Engineer, Team Lead",
       "startDate": "2007-07-01",
       "endDate": "2009-09-28",
-      "summary": "",
-      "highlights": [
-        "Evaluating and implementing libraries for use in Ruby on Rails applications.",
-        "Formal and informal training of developers on Ruby best idioms and practices."
-      ]
-    },
-    {
-      "company": "Metadata",
-      "position": "Senior Software Engineer, Team Lead",
-      "startDate": "2007-07-01",
-      "endDate": "2009-09-28",
-      "summary": "",
+      "summary": "Using Ruby and Rails to build applications used to run clinical trials. Iterating quickly and safely in a highly regulated environment.",
       "highlights": [
         "Evaluating and implementing libraries for use in Ruby on Rails applications.",
         "Formal and informal training of developers on Ruby best idioms and practices."
