@@ -123,6 +123,8 @@
       "keywords": [
         "Queuing Systems",
         "AWS's suite of services",
+        "Nginx",
+        "Passenger",
         "Chef",
         "HTTP",
         "Linux distros, how they work and their differences"
@@ -142,14 +144,6 @@
   "interests": [
     {
       "name": "Squeezing the most out of 512 MB of RAM. Intuitive design in code. Chaining apps with queuing."
-    },
-    {
-      "name": "Deployment and hosting",
-      "keywords": [
-        "Nginx",
-        "Passenger",
-        "AWS"
-      ]
     }
   ]
 }
