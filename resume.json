@@ -31,7 +31,7 @@
       "startDate": "2015-01-05",
       "summary": "Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.",
       "highlights": [
-        "Writing maintainable and idiomatic Ruby, & Javascript applications",
+        "Writing maintainable and idiomatic Ruby & Javascript applications",
         "Shepherded test coverage from 0 to +30% in 5 months.",
         "Limited rights protected video assets by IP address using AWS Cloudfront.",
         "Automated video transcoding for turning working copies into high, web quality video.",
