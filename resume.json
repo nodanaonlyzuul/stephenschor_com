@@ -2,7 +2,7 @@
   "basics": {
     "name": "Stephen Schor",
     "label": "Web Application Programmer",
-    "picture": "https://secure.gravatar.com/avatar/05517bd3a30b42f902ef032ba21de93a?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "picture": "https://dl.dropboxusercontent.com/u/92181/dont_delete/me-for-resume.jpg",
     "email": "myfirstname.mylastname@gmail.com",
     "website": "http://stephenschor.com",
     "summary": "Competent user of popular web frameworks and adjacent technologies. I'm happy if you look at my source and ask \"That's it?\". This is a cusory overview of my experience. For more information see my personal site, github, and rubygems accounts.",
@@ -31,9 +31,9 @@
       "startDate": "2015-01-05",
       "summary": "Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.",
       "highlights": [
-        "Writing maintainable and idiomatic Ruby & Javascript applications",
+        "Writing maintainable and idiomatic Ruby & Javascript applications.",
         "Shepherded test coverage from 0 to +30% in 5 months.",
-        "Limited access to rights-encumbered vidoe by IP address using AWS Cloudfront.",
+        "Limited access to rights-encumbered video by IP address using AWS Cloudfront.",
         "Automated video transcoding of archival video into high, web quality video.",
         "Led migrating from Oracle to PostgresSQL."
       ]
