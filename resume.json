@@ -34,8 +34,9 @@
         "Writing maintainable and idiomatic Ruby & Javascript applications.",
         "Shepherded test coverage from 0 to +30% in 5 months.",
         "Limited access to rights-encumbered video by IP address using AWS Cloudfront.",
-        "Automated video transcoding of archival video into high, web quality video.",
-        "Led migrating from Oracle to PostgresSQL."
+        "Automated video transcoding of archival video into high, web quality video using services, RabbitMQ, and AWS services.",
+        "Led migrating from Oracle to PostgresSQL.",
+        ""
       ]
     },
     {
@@ -45,7 +46,7 @@
       "endDate":   "2014-06-21",
       "summary": "Organize the premier regional programming conference.",
       "highlights": [
-        "Grew conference attedence 300%",
+        "Grew conference attedence 300%.",
         "Overseeing the conference's transition from focusing on a single language to a conference for developers interested in interesting things."
       ]
     },
