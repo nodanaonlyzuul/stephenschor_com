@@ -34,7 +34,7 @@
         "Writing maintainable and idiomatic Ruby & Javascript applications.",
         "Shepherded test coverage from 0 to +30% in 5 months.",
         "Limited access to rights-encumbered video by IP address using AWS Cloudfront.",
-        "Automated video transcoding of archival video into high, web quality video using services, RabbitMQ, and AWS services.",
+        "Automated video transcoding of archival video into high, web quality video using services, RabbitMQ, and AWS tools.",
         "Led migrating from Oracle to PostgresSQL.",
         ""
       ]
