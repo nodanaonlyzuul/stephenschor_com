@@ -31,12 +31,11 @@
       "startDate": "2015-01-05",
       "summary": "Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.",
       "highlights": [
-        "Writing maintainable and idiomatic Ruby & Javascript applications.",
+        "Wrote maintainable and idiomatic Ruby & Javascript applications.",
         "Shepherded test coverage from 0 to +30% in 5 months.",
         "Limited access to rights-encumbered video by IP address using AWS Cloudfront.",
         "Automated video transcoding of archival video into high, web quality video using services, RabbitMQ, and AWS tools.",
-        "Led migrating from Oracle to PostgresSQL.",
-        ""
+        "Led migrating from Oracle to PostgresSQL."
       ]
     },
     {
@@ -47,7 +46,7 @@
       "summary": "Organize the premier regional programming conference.",
       "highlights": [
         "Grew conference attedence 300%.",
-        "Overseeing the conference's transition from focusing on a single language to a conference for developers interested in interesting things."
+        "Oversaw the conference's transition from focusing on a single language to a conference for developers interested in interesting things."
       ]
     },
     {
@@ -57,8 +56,8 @@
       "endDate": "2014-12-28",
       "summary": "Maintain and build web application and services capable of servicing thousands of requests per second.",
       "highlights": [
-        "Working in Node.js, Ruby, Golang to strike the best balance between maintainability and performance.",
-        "Sharing DevOps responsibilities with a team of fellow highly skilled, handsome developers."
+        "Used Node.js, Ruby, Golang to strike the best balance between maintainability and performance.",
+        "Shared DevOps responsibilities with a team of highly skilled developers."
       ]
     },
     {
@@ -68,7 +67,7 @@
       "endDate": "2013-12-28",
       "summary": "Create and maintain technically and organizationally scalable applications for startups and goliaths.",
       "highlights": [
-        "Creating web applications that can be extended quickly.",
+        "Created and maintained web applications that could be extended quickly.",
         "Not carrying a balance of technical debt.",
         "Dictating technical infrastructure. Everything from hosting to application server."
       ]
@@ -80,7 +79,7 @@
       "endDate": "2009-09-28",
       "summary": "Using Ruby and Rails to build applications used to run clinical trials. Iterating quickly and safely in a highly regulated environment.",
       "highlights": [
-        "Evaluating and implementing libraries for use in Ruby on Rails applications.",
+        "Evaluated and implemented libraries for use in Ruby on Rails applications.",
         "Formal and informal training of developers on Ruby best idioms and practices."
       ]
     },
@@ -92,9 +91,9 @@
       "summary": "Automated QA of web applications and aiding our technology's integration on client's applications",
       "highlights": [
         "Complex breadth testing of struts-based web application and the JavaScript files it generates.",
-        "Creating Ruby driven web automation tests to save 40 man/hours per week.",
-        "Creating reusable performance tests for web applications.",
-        "Developing Java desktop application to save internal users to 20 hours/ week."
+        "Created Ruby driven web automation tests to save 40 man/hours per week.",
+        "Created reusable performance tests for web applications.",
+        "Developed Java desktop application to save internal users to 20 hours/ week."
       ]
     }
   ],
