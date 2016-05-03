@@ -99,6 +99,8 @@
   ],
   "education": [
     {
+      "startDate": "1999-01-01",
+      "endDate": "2003-01-01",
       "institution": "Florida State University",
       "area": "MIS / Economics Major with Computer Science minor",
       "studyType": "Bachelor"
