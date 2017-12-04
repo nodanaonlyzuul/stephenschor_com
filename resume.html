@@ -37,7 +37,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+
 }
 blockquote, q {
 	quotes: none;
@@ -260,6 +260,7 @@ h2.section-title {
 }
 
 .courses li, .keywords li{
+  margin: 0px 5px 5px 0px;
 	display: inline-block;
 	background: #f0f0f0;
 	font-size: 0.9em;
@@ -526,10 +527,9 @@ h2.section-title {
 	<body>
 		<div id="resume">
 				<header id="header">
-						<img src="https://dl.dropboxusercontent.com/u/92181/dont_delete/me-for-resume.jpg" alt="Stephen Schor"/>
-						<div class="middle">
+						<div>
 							<h1 class="name">Stephen Schor</h1>
-							<h2 class="label">Web Application Programmer</h2>
+							<h2 class="label">Software &amp; Web Developer</h2>
 						</div>
 
 				</header>
@@ -554,7 +554,7 @@ h2.section-title {
 						</div>
 						<div class="email">
 							<span class="fa fa-envelope"></span>
-							<a href="/cdn-cgi/l/email-protection#d2bfabb4bba0a1a6bcb3bfb7fcbfabbeb3a1a6bcb3bfb792b5bfb3bbbefcb1bdbf"><span class="__cf_email__" data-cfemail="1a77637c7368696e747b777f347763767b696e747b777f5a7d777b737634797577">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
+							<a href="mailto:stephen.schor+webresume@gmail.com">stephen.schor+webresume@gmail.com</a>
 						</div>
 					</div>
 
@@ -569,7 +569,7 @@ h2.section-title {
 							</span>
 						</div>
 						<div class="item">
-							<span class="network fa fa-rubygems.org rubygems.org"></span>
+							<span class="network fa fa-rubygems rubygems"></span>
 							<span class="username">
 								<span class="url">
 									<a href="https://rubygems.org/profiles/nodanaonlyzuul">nodanaonlyzuul</a>
@@ -582,7 +582,7 @@ h2.section-title {
 				<section class="section main-summary">
 					<h2 class='section-title'>About</h2>
 					<section>
-						<p>Competent user of popular web frameworks and adjacent technologies. I&#x27;m happy if you look at my source and ask &quot;That&#x27;s it?&quot;. This is a cursory overview of my experience. For more information see my personal site, github, and rubygems accounts.</p>
+						<p>Competent user of popular web frameworks and their backing technologies. I&#x27;m happy if you look at my source and ask &quot;That&#x27;s it?&quot;. This is a cursory overview of my experience. For more information see my personal site, github, and rubygems accounts.</p>
 					</section>
 				</section>
 
@@ -612,10 +612,11 @@ h2.section-title {
 							<p>Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.</p>
 						</div>
 						<ul class="highlights">
+							<li>Helped develop ops standards around provisioning, deployment, and logging.</li>
 							<li>Wrote maintainable and idiomatic Ruby &amp; Javascript applications.</li>
 							<li>Shepherded test coverage from 0 to +30% in 5 months.</li>
 							<li>Limited access to rights-encumbered video by IP address using AWS Cloudfront.</li>
-							<li>Automated video transcoding of archival video into high, web quality video using services, RabbitMQ, and AWS tools.</li>
+							<li>Automated video transcoding of archival video into high, web quality video small services, RabbitMQ, and AWS tools.</li>
 							<li>Led migrating from Oracle to PostgresSQL.</li>
 						</ul>
 					</div>
@@ -637,7 +638,7 @@ h2.section-title {
 							Co-Organizer
 						</div>
 						<div class="summary">
-							<p>Organize the premier regional programming conference.</p>
+							<p>Co-Organized the premier regional programming conference.</p>
 						</div>
 						<ul class="highlights">
 							<li>Grew conference attedence 300%.</li>
@@ -662,7 +663,7 @@ h2.section-title {
 							Senior Engineer
 						</div>
 						<div class="summary">
-							<p>Maintain and build web application and services capable of servicing thousands of requests per second.</p>
+							<p>Maintained and built web application and services capable of servicing thousands of requests per second.</p>
 						</div>
 						<ul class="highlights">
 							<li>Used Node.js, Ruby, Golang to strike the best balance between maintainability and performance.</li>
@@ -687,7 +688,7 @@ h2.section-title {
 							Senior Developer
 						</div>
 						<div class="summary">
-							<p>Create and maintain technically and organizationally scalable applications for startups and goliaths.</p>
+							<p>Creates and maintained technically and organizationally scalable applications for startups and goliaths.</p>
 						</div>
 						<ul class="highlights">
 							<li>Created and maintained web applications that could be extended quickly.</li>
@@ -713,11 +714,12 @@ h2.section-title {
 							Senior Software Engineer, Team Lead
 						</div>
 						<div class="summary">
-							<p>Using Ruby and Rails to build applications used to run clinical trials. Iterating quickly and safely in a highly regulated environment.</p>
+							<p>Used Ruby and Rails to build applications used to run clinical trials.</p>
 						</div>
 						<ul class="highlights">
 							<li>Evaluated and implemented libraries for use in Ruby on Rails applications.</li>
 							<li>Formal and informal training of developers on Ruby best practices and idioms.</li>
+							<li>Iterating quickly and safely in a highly regulated environment.</li>
 						</ul>
 					</div>
 						<header>
@@ -788,6 +790,10 @@ h2.section-title {
 							<div class="name">
 								Web Development &amp; API Design
 							</div>
+							<div class="level master">
+								<em>Master</em>
+								<div class="bar"></div>
+							</div>
 							<ul class="keywords">
 								<li>HTML</li>
 								<li>CSS</li>
@@ -804,17 +810,24 @@ h2.section-title {
 							</div>
 							<ul class="keywords">
 								<li>Queuing Systems</li>
-								<li>AWS</li>
+								<li>Kinesis</li>
+								<li>RDS</li>
+								<li>Elastic Transcoder</li>
+								<li>Lambda</li>
+								<li>S3</li>
 								<li>Nginx</li>
 								<li>Passenger</li>
 								<li>Chef</li>
 								<li>HTTP</li>
-								<li>Linux distros, how they work and their differences</li>
 							</ul>
 						</div>
 						<div class="item">
 							<div class="name">
 								Data Stores
+							</div>
+							<div class="level great for a developer, but you and i both don&#x27;t want me to be your dba.">
+								<em>Great for a developer, but you and I both don&#x27;t want me to be your DBA.</em>
+								<div class="bar"></div>
 							</div>
 							<ul class="keywords">
 								<li>PostgresSQL</li>
@@ -832,13 +845,18 @@ h2.section-title {
 					<section id="interests">
 						<div class="item">
 							<div class="name">
-								Squeezing the most out of 512 MB of RAM. Intuitive design in code. Chaining apps with queuing.
+								Using Docker as the best &amp; most agnostic packaging system ever.
+							</div>
+						</div>
+						<div class="item">
+							<div class="name">
+								Squeezing the most out of 512 MB of RAM.
 							</div>
 						</div>
 					</section>
 				</section>
 
 		</div>
-	<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+	</body>
 
 </html>

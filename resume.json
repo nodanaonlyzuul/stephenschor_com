@@ -1,11 +1,10 @@
 {
   "basics": {
     "name": "Stephen Schor",
-    "label": "Web Application Programmer",
-    "picture": "https://dl.dropboxusercontent.com/u/92181/dont_delete/me-for-resume.jpg",
-    "email": "myfirstname.mylastname@gmail.com",
+    "label": "Software & Web Developer",
+    "email": "stephen.schor+webresume@gmail.com",
     "website": "http://stephenschor.com",
-    "summary": "Competent user of popular web frameworks and adjacent technologies. I'm happy if you look at my source and ask \"That's it?\". This is a cursory overview of my experience. For more information see my personal site, github, and rubygems accounts.",
+    "summary": "Competent user of popular web frameworks and their backing technologies. I'm happy if you look at my source and ask \"That's it?\". This is a cursory overview of my experience. For more information see my personal site, github, and rubygems accounts.",
     "location": {
       "city": "New York",
       "countryCode": "US",
@@ -18,7 +17,7 @@
         "url": "https://github.com/nodanaonlyzuul"
       },
       {
-        "network": "Rubygems.org",
+        "network": "Rubygems",
         "username": "nodanaonlyzuul",
         "url": "https://rubygems.org/profiles/nodanaonlyzuul"
       }
@@ -31,10 +30,11 @@
       "startDate": "2015-01-05",
       "summary": "Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.",
       "highlights": [
+        "Helped develop ops standards around provisioning, deployment, and logging.",
         "Wrote maintainable and idiomatic Ruby & Javascript applications.",
         "Shepherded test coverage from 0 to +30% in 5 months.",
         "Limited access to rights-encumbered video by IP address using AWS Cloudfront.",
-        "Automated video transcoding of archival video into high, web quality video using services, RabbitMQ, and AWS tools.",
+        "Automated video transcoding of archival video into high, web quality video small services, RabbitMQ, and AWS tools.",
         "Led migrating from Oracle to PostgresSQL."
       ]
     },
@@ -43,7 +43,7 @@
       "position": "Co-Organizer",
       "startDate": "2008-04-26",
       "endDate":   "2014-06-21",
-      "summary": "Organize the premier regional programming conference.",
+      "summary": "Co-Organized the premier regional programming conference.",
       "highlights": [
         "Grew conference attedence 300%.",
         "Oversaw the conference's transition from focusing on a single language to a conference for developers interested in interesting things."
@@ -54,7 +54,7 @@
       "position": "Senior Engineer",
       "startDate": "2014-01-08",
       "endDate": "2014-12-28",
-      "summary": "Maintain and build web application and services capable of servicing thousands of requests per second.",
+      "summary": "Maintained and built web application and services capable of servicing thousands of requests per second.",
       "highlights": [
         "Used Node.js, Ruby, Golang to strike the best balance between maintainability and performance.",
         "Shared DevOps responsibilities with a team of highly skilled developers."
@@ -65,7 +65,7 @@
       "position": "Senior Developer",
       "startDate": "2010-01-01",
       "endDate": "2013-12-28",
-      "summary": "Create and maintain technically and organizationally scalable applications for startups and goliaths.",
+      "summary": "Creates and maintained technically and organizationally scalable applications for startups and goliaths.",
       "highlights": [
         "Created and maintained web applications that could be extended quickly.",
         "Not carrying a balance of technical debt.",
@@ -77,10 +77,11 @@
       "position": "Senior Software Engineer, Team Lead",
       "startDate": "2007-07-01",
       "endDate": "2009-09-28",
-      "summary": "Using Ruby and Rails to build applications used to run clinical trials. Iterating quickly and safely in a highly regulated environment.",
+      "summary": "Used Ruby and Rails to build applications used to run clinical trials.",
       "highlights": [
         "Evaluated and implemented libraries for use in Ruby on Rails applications.",
-        "Formal and informal training of developers on Ruby best practices and idioms."
+        "Formal and informal training of developers on Ruby best practices and idioms.",
+        "Iterating quickly and safely in a highly regulated environment."
       ]
     },
     {
@@ -124,12 +125,15 @@
       "name": "Technical Infrastructure",
       "keywords": [
         "Queuing Systems",
-        "AWS",
+        "Kinesis",
+        "RDS",
+        "Elastic Transcoder",
+        "Lambda",
+        "S3",
         "Nginx",
         "Passenger",
         "Chef",
-        "HTTP",
-        "Linux distros, how they work and their differences"
+        "HTTP"
       ]
     },
     {
@@ -144,8 +148,7 @@
     }
   ],
   "interests": [
-    {
-      "name": "Squeezing the most out of 512 MB of RAM. Intuitive design in code. Chaining apps with queuing."
-    }
+    { "name": "Using Docker as the best & most agnostic packaging system ever." },
+    { "name": "Squeezing the most out of 512 MB of RAM." }
   ]
 }
