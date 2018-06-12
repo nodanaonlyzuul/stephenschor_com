@@ -30,7 +30,7 @@
       "startDate": "2015-01-05",
       "summary": "Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.",
       "highlights": [
-        "Helped develop ops standards around provisioning, deployment, and logging.",
+        "Helped develop ops standards around provisioning, deployment, structured logging, and containerization.",
         "Wrote maintainable and idiomatic Ruby & Javascript applications.",
         "Shepherded test coverage from 0 to +30% in 5 months.",
         "Limited access to rights-encumbered video by IP address using AWS Cloudfront.",
