@@ -29,7 +29,7 @@
       "summary": "Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.",
       "highlights": [
         "Helped develop ops standards around provisioning, deployment, structured logging, and containerization.",
-        "Developed use of containers and multi-stage builds to run complex stacks easier to run locally",
+        "Developed use of containers and multi-stage builds to make complex stacks easier to run locally",
         "Automated video transcoding of archival video into high, web quality video microservices, RabbitMQ, and AWS tools.",
         "Led migrating from Oracle to PostgresSQL.",
         "Used CI/CD to build & deploy applications to Elastic Beanstalk & ECS",
