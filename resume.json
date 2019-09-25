@@ -4,14 +4,13 @@
     "label": "Software & Web Developer",
     "email": "stephen.schor+webresume@gmail.com",
     "website": "http://stephenschor.com",
-    "summary": "Competent user of popular web frameworks and their backing technologies. I'm happy if you look at my source and ask \"That's it?\". This is a cursory overview of my experience. For more information see my personal site, github, and rubygems accounts.",
+    "summary": "Developer with expert knowledge of popular web frameworks and their backing technologies. I'm happy if you look at my source and ask \"That's it?\". For more information see my personal site, github, and rubygems accounts.",
     "location": {
       "city": "New York",
       "countryCode": "US",
       "region": "New York"
     },
-    "profiles": [
-      {
+    "profiles": [{
         "network": "Github",
         "username": "nodanaonlyzuul",
         "url": "https://github.com/nodanaonlyzuul"
@@ -23,26 +22,26 @@
       }
     ]
   },
-  "work": [
-    {
+  "work": [{
       "company": "New York Public Library",
       "position": "Senior Applications Developer",
       "startDate": "2015-01-05",
       "summary": "Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.",
       "highlights": [
         "Helped develop ops standards around provisioning, deployment, structured logging, and containerization.",
+        "Developed use of containers and multi-stage builds to run complex stacks easier to run locally",
+        "Automated video transcoding of archival video into high, web quality video microservices, RabbitMQ, and AWS tools.",
+        "Led migrating from Oracle to PostgresSQL.",
+        "Used CI/CD to build & deploy applications to Elastic Beanstalk & ECS",
         "Wrote maintainable and idiomatic Ruby & Javascript applications.",
-        "Shepherded test coverage from 0 to +30% in 5 months.",
-        "Limited access to rights-encumbered video by IP address using AWS Cloudfront.",
-        "Automated video transcoding of archival video into high, web quality video small services, RabbitMQ, and AWS tools.",
-        "Led migrating from Oracle to PostgresSQL."
+        "Limited access to rights-encumbered video by IP address using AWS Cloudfront."
       ]
     },
     {
       "company": "Gotham Ruby Conference",
       "position": "Co-Organizer",
       "startDate": "2008-04-26",
-      "endDate":   "2014-06-21",
+      "endDate": "2014-06-21",
       "summary": "Co-Organized the premier regional programming conference.",
       "highlights": [
         "Grew conference attedence 300%.",
@@ -98,17 +97,14 @@
       ]
     }
   ],
-  "education": [
-    {
-      "startDate": "1999-01-01",
-      "endDate": "2003-01-01",
-      "institution": "Florida State University",
-      "area": "MIS / Economics Major with Computer Science minor",
-      "studyType": "Bachelor"
-    }
-  ],
-  "skills": [
-    {
+  "education": [{
+    "startDate": "1999-01-01",
+    "endDate": "2003-01-01",
+    "institution": "Florida State University",
+    "area": "MIS / Economics Major with Computer Science minor",
+    "studyType": "Bachelor"
+  }],
+  "skills": [{
       "name": "Web Development & API Design",
       "level": "Master",
       "keywords": [
@@ -147,8 +143,11 @@
       ]
     }
   ],
-  "interests": [
-    { "name": "Using Docker as the best & most agnostic packaging system ever." },
-    { "name": "Squeezing the most out of 512 MB of RAM." }
+  "interests": [{
+      "name": "Using Docker as the best & most agnostic packaging system ever."
+    },
+    {
+      "name": "Squeezing the most out of 512 MB of RAM."
+    }
   ]
 }
