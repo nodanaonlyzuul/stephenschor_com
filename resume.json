@@ -29,10 +29,10 @@
       "summary": "Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.",
       "highlights": [
         "Helped develop ops standards around provisioning, deployment, structured logging, and containerization.",
-        "Developed use of containers and multi-stage builds to make complex stacks easier to run locally",
+        "Developed use of containers and multi-stage builds to make complex stacks easier to run locally.",
         "Automated video transcoding of archival video into high, web quality video microservices, RabbitMQ, and AWS tools.",
         "Led migrating from Oracle to PostgresSQL.",
-        "Used CI/CD to build & deploy applications to Elastic Beanstalk & ECS",
+        "Used CI/CD to build & deploy applications to Elastic Beanstalk & ECS.",
         "Wrote maintainable and idiomatic Ruby & Javascript applications.",
         "Limited access to rights-encumbered video by IP address using AWS Cloudfront."
       ]
@@ -88,7 +88,7 @@
       "position": "QA Engineer / Developer",
       "startDate": "2004-08-01",
       "endDate": "2007-07-01",
-      "summary": "Automated QA of web applications and aiding our technology's integration on client's applications",
+      "summary": "Automated QA of web applications and aiding our technology's integration on client's applications.",
       "highlights": [
         "Complex breadth testing of struts-based web application and the JavaScript files it generates.",
         "Created Ruby driven web automation tests to save 40 man/hours per week.",
