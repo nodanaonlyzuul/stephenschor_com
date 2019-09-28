@@ -4,7 +4,7 @@
     "label": "Software & Web Developer",
     "email": "stephen.schor+webresume@gmail.com",
     "website": "http://stephenschor.com",
-    "summary": "Developer with expert knowledge of popular web frameworks and their backing technologies. I'm happy if you look at my source and ask \"That's it?\". For more information see my personal site, github, and rubygems accounts.",
+    "summary": "Developer with expert knowledge of popular web frameworks and their backing technologies. Happy in the shrinking gap between development and ops, extatic to turn needs into working software.",
     "location": {
       "city": "New York",
       "countryCode": "US",
@@ -28,11 +28,16 @@
       "startDate": "2015-01-05",
       "summary": "Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.",
       "highlights": [
-        "Helped develop ops standards around provisioning, deployment, structured logging, and containerization.",
-        "Developed use of containers and multi-stage builds to make complex stacks easier to run locally.",
-        "Automated video transcoding of archival video into high, web quality video microservices, RabbitMQ, and AWS tools.",
-        "Led migrating from Oracle to PostgresSQL.",
-        "Used CI/CD to build & deploy applications to Elastic Beanstalk & ECS.",
+        "Developed ops standards/consensus around provisioning, deployment, structured logging, containerization, code review, testing, and git workflow.",
+        "Introduced use of containers and multi-stage builds to make complex stacks easier to run locally.",
+        "Used structured logging for better observability & metrics, used to tune containers and scaling rules.",
+        "Built & maintained a suite of fault-tolerant web apps & microservices used by staff to describe, transcode, and archive audio/video using RabbitMQ and AWS tools.",
+        "Thinks critically about maintainers' toil and evangelizing solutions for toil.",
+        "Planned and delivered complex, multi-system projects, spanning organizational units.",
+        "Led migration from Oracle to PostgresSQL.",
+        "Thinking holistically about what the team spends its time on and if it adds value for users.",
+        "Mentoring teammates about the idiosyncrasies of microservices.",
+        "Created CI/CD pipelines to build & deploy applications to Elastic Beanstalk & ECS.",
         "Wrote maintainable and idiomatic Ruby & Javascript applications.",
         "Limited access to rights-encumbered video by IP address using AWS Cloudfront."
       ]

@@ -19,8 +19,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -29,7 +29,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	vertical-align: baseline;
 }
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -52,7 +52,7 @@ table {
 	border-spacing: 0;
 }
 /* Custom reset */
-.main-summary p, 
+.main-summary p,
 #publications .item,
 #skills .item,
 #languages .item,
@@ -63,7 +63,7 @@ table {
 
 
 /****************
-*		SMARTPHONES		
+*		SMARTPHONES
 ****************/
 em {
 	color: #757575;
@@ -80,7 +80,15 @@ strong {
 	font-size: 1.1em;
 }
 ul {
-	margin-top: 1em; 
+	margin-top: 1em;
+}
+
+ul.highlights li {
+  border-left: inset #d3d3d3 1px;
+  margin: 8px 0px;
+  padding: 4px;
+  background-color: #f2f2f2;
+  border-radius: 2px;
 }
 div.item {
 	margin: 1em 0 2em;
@@ -177,8 +185,8 @@ section#skills {
 	padding-bottom: 0;
 }
 
-section#education, 
-section#work, 
+section#education,
+section#work,
 .main-summary section {
 	padding-bottom: 1em;
 }
@@ -273,7 +281,7 @@ h2.section-title {
 
 #publications .date {
 	font-weight: normal;
-	color: #000;	
+	color: #000;
 }
 
 #skills .item {
@@ -305,17 +313,17 @@ h2.section-title {
 #skills .level.beginner .bar::after {
 	background: #EB5F51;
 	width: 2.5em;
-} 
+}
 
 #skills .level.intermediate .bar::after {
 	background: #ffdf1f;
 	width: 5em;
-} 
+}
 
 #skills .level.advanced .bar::after {
 	background: #59C596;
 	width: 7.5em;
-} 
+}
 
 #skills .level.master .bar::after {
 	background: #5CB85C;
@@ -334,7 +342,7 @@ h2.section-title {
 
 /* Social Media Brand Colors */
 .google-plus {
-	color: #dd4b39;	
+	color: #dd4b39;
 }
 
 .tumblr {
@@ -369,7 +377,7 @@ h2.section-title {
 	color: #00aced;
 }
 
-.soundcloud { 
+.soundcloud {
 	color: #ff3a00;
 }
 
@@ -392,7 +400,7 @@ h2.section-title {
 
 .flickr {
 	color: #ff0084;
-}      
+}
 
 .stack-overflow::after {
 	position: absolute;
@@ -404,7 +412,7 @@ h2.section-title {
 }
 
 /******************
-*		HELPER CLASSES	
+*		HELPER CLASSES
 ******************/
 .fa {
 	min-width: 1.25em;
@@ -421,8 +429,8 @@ h2.section-title {
 /****************
 *		TABLET
 ****************/
-@media screen and (min-width: 602px) { 
-	
+@media screen and (min-width: 602px) {
+
 	#resume {
 		width: 550px;
 		margin: 0 auto;
@@ -439,12 +447,12 @@ h2.section-title {
 
 
 /****************
-*		LAPTOP	
+*		LAPTOP
 ****************/
-@media screen and (min-width: 1025px) { 
-	
+@media screen and (min-width: 1025px) {
+
 	#resume {
-		width: 650px;		
+		width: 650px;
 		padding: 3em;
 		margin: 3em auto;
 		background: #fff;
@@ -473,7 +481,7 @@ h2.section-title {
 
 	section > header {
 		line-height: 1;
-		padding-bottom: 1em; 
+		padding-bottom: 1em;
 	}
 
 	h2.section-title {
@@ -520,8 +528,9 @@ h2.section-title {
 	}
 
 }
+
 	</style>
-	
+
 
 	<body>
 		<div id="resume">
@@ -532,9 +541,9 @@ h2.section-title {
 						</div>
 
 				</header>
-				
+
 				<section id="basics">
-					
+
 						<div id="location">
 							<span class="city">
 								New York
@@ -556,7 +565,7 @@ h2.section-title {
 							<a href="mailto:stephen.schor+webresume@gmail.com">stephen.schor+webresume@gmail.com</a>
 						</div>
 					</div>
-				
+
 
 					<div id="profiles">
 						<div class="item">
@@ -581,7 +590,7 @@ h2.section-title {
 				<section class="section main-summary">
 					<h2 class='section-title'>About</h2>
 					<section>
-						<p>Developer with expert knowledge of popular web frameworks and their backing technologies. I&#x27;m happy if you look at my source and ask &quot;That&#x27;s it?&quot;. For more information see my personal site, github, and rubygems accounts.</p>
+						<p>Developer with expert knowledge of popular web frameworks and their backing technologies. Happy in the shrinking gap between development and ops, extatic to turn needs into working software.</p>
 					</section>
 				</section>
 
@@ -611,11 +620,16 @@ h2.section-title {
 							<p>Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.</p>
 						</div>
 						<ul class="highlights">
-							<li>Helped develop ops standards around provisioning, deployment, structured logging, and containerization.</li>
-							<li>Developed use of containers and multi-stage builds to make complex stacks easier to run locally.</li>
-							<li>Automated video transcoding of archival video into high, web quality video microservices, RabbitMQ, and AWS tools.</li>
-							<li>Led migrating from Oracle to PostgresSQL.</li>
-							<li>Used CI/CD to build &amp; deploy applications to Elastic Beanstalk &amp; ECS.</li>
+							<li>Developed ops standards/consensus around provisioning, deployment, structured logging, containerization, code review, testing, and git workflow.</li>
+							<li>Introduced use of containers and multi-stage builds to make complex stacks easier to run locally.</li>
+							<li>Used structured logging for better observability &amp; metrics, used to tune containers and scaling rules.</li>
+							<li>Built &amp; maintained a suite of fault-tolerant web apps &amp; microservices used by staff to describe, transcode, and archive audio/video using RabbitMQ and AWS tools.</li>
+							<li>Thinks critically about maintainers&#x27; toil and evangelizing solutions for toil.</li>
+							<li>Planned and delivered complex, multi-system projects, spanning organizational units.</li>
+							<li>Led migration from Oracle to PostgresSQL.</li>
+							<li>Thinking holistically about what the team spends its time on and if it adds value for users.</li>
+							<li>Mentoring teammates about the idiosyncrasies of microservices.</li>
+							<li>Created CI/CD pipelines to build &amp; deploy applications to Elastic Beanstalk &amp; ECS.</li>
 							<li>Wrote maintainable and idiomatic Ruby &amp; Javascript applications.</li>
 							<li>Limited access to rights-encumbered video by IP address using AWS Cloudfront.</li>
 						</ul>
@@ -751,7 +765,7 @@ h2.section-title {
 					</div>
 					</section>
 				</section>
-		
+
 				<section class="section">
 					<h2 class='section-title'>Education</h2>
 					<section id="education">
@@ -778,11 +792,11 @@ h2.section-title {
 							</div>
 					</section>
 				</section>
-		
-			
 
-		
-		
+
+
+
+
 				<section class="section">
 					<h2 class='section-title'>Skills</h2>
 					<section id="skills">
@@ -855,8 +869,8 @@ h2.section-title {
 						</div>
 					</section>
 				</section>
-		
-		</div>		
+
+		</div>
 	</body>
-	
+
 </html>
