@@ -23,9 +23,21 @@
     ]
   },
   "work": [{
+      "company": "Venuenext/Shift4",
+      "position": "Infrastructure Engineer",
+      "startDate": "2019-10-01",
+      "summary": "Creating and maintaining cloud native infrastructure that prioritizes observability & scalability.",
+      "highlights": [
+        "Architected and implemented high volume Kinesis + Lambda powered integration with customers.",
+        "Automated log retention & auditing for SOC 2 compliance.",
+        "Implemented trace correlation across services."
+      ]
+    },
+    {
       "company": "New York Public Library",
       "position": "Senior Applications Developer",
       "startDate": "2015-01-05",
+      "endDate": "2019-10-01",
       "summary": "Creating and maintaining applications that help archivists describe digitized archival material and make material available to the public on the web.",
       "highlights": [
         "Developed ops standards/consensus around provisioning, deployment, structured logging, containerization, code review, testing, and git workflow.",
