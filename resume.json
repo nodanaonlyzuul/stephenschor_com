@@ -22,10 +22,23 @@
       }
     ]
   },
-  "work": [{
+  "work": [
+    {
+      "company": "Venuenext/Shift4",
+      "position": "Manager, Infrastructure",
+      "startDate": "2022-03-28",
+      "summary": "Creating roadmap for the infrastructure team & its members.",
+      "highlights": [
+        "Idendified cost savings of $40,000 per month (Compute & SaaS costs).",
+        "Formalized SLOs for HTTP throughput capacity & built monitors around it.",
+        "Worked with infra team and external stakeholders to align professional development with product roadmap."
+      ]
+    },
+    {
       "company": "Venuenext/Shift4",
       "position": "Infrastructure Engineer",
       "startDate": "2019-10-01",
+      "endDate": "2022-03-28",
       "summary": "Creating and maintaining cloud native infrastructure that prioritizes observability & scalability.",
       "highlights": [
         "Architected and implemented high volume Kinesis + Lambda powered integration with customers.",
@@ -137,6 +150,8 @@
     {
       "name": "Technical Infrastructure",
       "keywords": [
+        "CI/CD",
+        "IaC (CloudFormation)",
         "Queuing Systems",
         "Kinesis",
         "RDS",
@@ -153,7 +168,7 @@
       "name": "Data Stores",
       "level": "Great for a developer, but you and I both don't want me to be your DBA.",
       "keywords": [
-        "PostgresSQL",
+        "PostgreSQL",
         "MySQL",
         "Redis",
         "Knowing the right tool for the job"
