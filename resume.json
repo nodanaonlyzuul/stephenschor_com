@@ -31,7 +31,8 @@
       "highlights": [
         "Idendified cost savings of $40,000 per month (Compute & SaaS costs).",
         "Formalized SLOs for HTTP throughput capacity & built monitors around it.",
-        "Worked with infra team and external stakeholders to align professional development with product roadmap."
+        "Worked with infra team and external stakeholders to align professional development with product roadmap.",
+        "Implemented custom lambda to cull unused repository images - saving $10,000 per year in Artifactory costs."
       ]
     },
     {
