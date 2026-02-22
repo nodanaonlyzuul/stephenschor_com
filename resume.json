@@ -43,7 +43,8 @@
       "endDate": "2022-03-28",
       "summary": "Creating and maintaining cloud native infrastructure that prioritizes observability & scalability.",
       "highlights": [
-        "Architected and implemented high volume Kinesis + Lambda powered integration with customers.",
+        "Developed and oversaw the building of Docker images to large EKS clusters, then managing said clusters.",
+        "Architected and implemented high volume Kinesis + Lambda powered data pipeline with customers.",
         "Automated log retention & auditing for SOC 2 compliance.",
         "Implemented trace correlation across services."
       ]
@@ -153,7 +154,8 @@
       "name": "Technical Infrastructure",
       "keywords": [
         "CI/CD",
-        "IaC (CloudFormation)",
+        "Kubernetes (EKS)",
+        "IaC (CloudFormation & Terraform)",
         "Queuing Systems",
         "Kinesis",
         "RDS",
@@ -162,8 +164,7 @@
         "S3",
         "Nginx",
         "Passenger",
-        "Chef",
-        "HTTP"
+        "HTTP fundamentals"
       ]
     },
     {
