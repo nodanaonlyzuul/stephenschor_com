@@ -22,9 +22,11 @@
     .project-card {
       max-width: 80%;
       padding: 15px;
+      height: 100%;
     }
 
     .project-link {
+      display: block;
       margin-top: 10px;
       color: #555;
     }
@@ -34,7 +36,9 @@
     }
 
     .project-img {
-      max-width: 100%;
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -129,6 +133,7 @@
     <div style="margin-left: 15px;" class="row">
       <div class="col">
         <h2>Projects (old and new)<small class="text-muted">¯\_(ツ)_/¯</small></h2>
+        <p>Some of these are long dead - or use long-gone APIs. PRs welcome!</p>
       </div>
     </div>
 
@@ -136,7 +141,7 @@
 
       <div class="col">
         <div class="card project-card">
-          <a class="project-link" target="_blank" href="https://vimeo.com/246590038" class="thumbnail">
+          <a class="project-link thumbnail" target="_blank" href="https://vimeo.com/246590038">
             <img class="project-img rounded" src="/assets/img/sites/nypl-cli.png">
             <div class="caption">
               <h4>Patience and Fortitude</h4>
@@ -148,7 +153,7 @@
 
       <div class="col">
         <div class="card project-card">
-          <a class="project-link" target="_blank" href="https://github.com/nodanaonlyzuul/spoiler-alert" class="thumbnail">
+          <a class="project-link thumbnail" target="_blank" href="https://github.com/nodanaonlyzuul/spoiler-alert">
             <img class="project-img rounded" src="/assets/img/sites/spoilers.png">
             <div class="caption">
               <h4>Spoiler Alerts</h4>
@@ -162,7 +167,7 @@
 
       <div class="col">
         <div class="card project-card">
-          <a class="project-link" target="_blank" href="https://github.com/nodanaonlyzuul/flickr_cli" class="thumbnail">
+          <a class="project-link thumbnail" target="_blank" href="https://github.com/nodanaonlyzuul/flickr_cli">
             <img class="project-img rounded" src="/assets/img/sites/flickr_cli.png">
             <div class="caption">
               <h4>FlickrCLI</h4>
@@ -176,7 +181,7 @@
     <div class="row project-row">
       <div class="col">
         <div class="card project-card">
-          <a class="project-link" target="_blank" href="https://github.com/nodanaonlyzuul/useful_duration" class="thumbnail">
+          <a class="project-link thumbnail" target="_blank" href="https://github.com/nodanaonlyzuul/useful_duration">
             <img class="project-img rounded" src="/assets/img/sites/duration.gif">
             <div class="caption">
               <h4>UsefulDuration</h4>
@@ -188,7 +193,7 @@
 
       <div class="col">
         <div class="card project-card">
-          <a class="project-link" target="_blank" href="https://github.com/nodanaonlyzuul/fortune_gem" class="thumbnail">
+          <a class="project-link thumbnail" target="_blank" href="https://github.com/nodanaonlyzuul/fortune_gem">
             <img class="project-img rounded" src="/assets/img/sites/fortune_gem.gif">
             <div class="caption">
               <h4>Fortune Gem</h4>
@@ -200,7 +205,7 @@
 
       <div class="col">
         <div class="card project-card">
-          <a class="project-link" target="_blank" href="https://github.com/nodanaonlyzuul/updog" class="thumbnail">
+          <a class="project-link thumbnail" target="_blank" href="https://github.com/nodanaonlyzuul/updog">
             <img class="project-img rounded" src="/assets/img/sites/updog.png">
             <div class="caption">
               <h4>Updog</h4>
@@ -211,11 +216,11 @@
       </div>
     </div>
 
-    <div class="row project-row">
+    <!-- <div class="row project-row">
 
       <div class="col">
         <div class="card project-card">
-          <a class="project-link" target="_blank" href="http://vimeo.com/93005173" class="thumbnail">
+          <a class="project-link thumbnail" target="_blank" href="http://vimeo.com/93005173">
             <img class="project-img rounded" src="/assets/img/sites/yolo.jpg">
             <div class="caption">
               <h4>#YOLO Hunt 2k14</h4>
@@ -227,7 +232,7 @@
 
       <div class="col">
         <div class="card project-card">
-          <a class="project-link" target="_blank" href="https://github.com/nodanaonlyzuul/esb" class="thumbnail">
+          <a class="project-link thumbnail" target="_blank" href="https://github.com/nodanaonlyzuul/esb">
             <img class="project-img rounded" src="/assets/img/sites/esb.gif">
             <div class="caption">
               <h4>ESB</h4>
@@ -236,12 +241,26 @@
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="row project-row">
+
       <div class="col">
         <div class="card project-card">
-          <a class="project-link" target="_blank" href="https://github.com/nodanaonlyzuul/gbv" class="thumbnail">
+          <a class="project-link thumbnail" target="_blank" href="https://github.com/nodanaonlyzuul/esb">
+            <img class="project-img rounded" src="/assets/img/sites/esb.gif">
+            <div class="caption">
+              <h4>ESB</h4>
+              <p>Keep tabs on the Empire State Building's colors from the command line</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card project-card">
+          <a class="project-link thumbnail" target="_blank" href="https://github.com/nodanaonlyzuul/gbv">
             <img class="project-img rounded" src="/assets/img/sites/gbv.gif">
             <div class="caption">
               <h4>GBV</h4>
@@ -251,19 +270,19 @@
         </div>
       </div>
 
-      <div class="col">
+      <!-- <div class="col">
         <div class="card project-card">
-          <img class="project-img rounded" src="/assets/img/sites/rain.gif">
-          <a class="project-link" target="_blank" href="http://nodanaonlyzuul.github.io/itsgonnarain/">
+          <a class="project-link thumbnail" target="_blank" href="http://nodanaonlyzuul.github.io/itsgonnarain/">
+            <img class="project-img rounded" src="/assets/img/sites/rain.gif">
             <h4 class="card-title">It's Gonna Rain</h4>
             <p class="card-text">Steve Reich's "It's Gonna Rain" (as text)</p>
           </a>
         </div>
-      </div>
+      </div> -->
 
       <div class="col">
         <div class="card project-card">
-          <a class="project-link" target="_blank" href="https://github.com/nodanaonlyzuul/pwny-express" class="thumbnail">
+          <a class="project-link thumbnail" target="_blank" href="https://github.com/nodanaonlyzuul/pwny-express">
             <img class="project-img rounded" src="/assets/img/sites/pwny.gif">
             <div class="caption">
               <h4>Pwny Express</h4>
